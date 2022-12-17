@@ -9,8 +9,8 @@
 
 html,
 body {
+  width: 100%;
   height: 100vh;
-  width: 100vw;
   position: relative;
 }
 
@@ -27,6 +27,7 @@ body {
 
 #content {
   text-align: center;
+  height: 100%;
 }
 
 #my-name {
@@ -35,14 +36,18 @@ body {
 }
 
 #left-side {
-  width: 50%;
-  display: inline-block;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+#left-side > a {
+  margin-right: 16px;
 }
 
 #right-side {
-  width: 49%;
-  display: inline-block;
-  text-align: right;
+  position: absolute;
+  top: 16px;
+  right: 16px;
 }
 
 a {
@@ -51,19 +56,11 @@ a {
   border-bottom: 1px dotted #5c2e7e;
 }
 
-header {
-  margin-top: 16px;
-}
-.nav-link {
-  margin-left: 8px;
-}
-
 footer {
   position: absolute;
-  bottom: 0;
+  bottom: 16px;
   left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 16px;
 }
 footer a:first-child {
   margin-right: 16px;
