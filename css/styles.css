@@ -21,7 +21,6 @@ body {
 }
 
 header {
-  background-color: red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -49,16 +48,9 @@ header {
   column-gap: 16px;
 }
 
-#right-side {
-  /* position: absolute;
-  top: 16px;
-  right: 16px; */
-}
-
 a {
   color: #5c2e7e;
   text-decoration: none;
-  border-bottom: 1px dotted #5c2e7e;
 }
 
 footer {
