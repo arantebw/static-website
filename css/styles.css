@@ -77,19 +77,22 @@ footer > section {
 
 #hero-banner {
   background: linear-gradient(150deg, red, blue, magenta);
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 #hero-banner > div {
-  width: 50%;
-  margin: 0 auto;
-}
-#hero-banner > div > div {
-  display: inline-block;
+  width: 100vw; /* vw -> viewport width */
+  display: flex;
+  column-gap: 16px;
+  padding: 16px;
 }
 #hero-banner h1,
 #hero-banner h2 {
   color: white;
+}
+#hero-banner h1 {
+  font-size: 2rem; /* 1rem -> 16px */
+}
+#hero-banner h2 {
+  font-size: 1.1rem; /* customize this value to align the text in single row */
 }
 h3 {
   text-align: center;
