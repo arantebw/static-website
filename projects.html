@@ -40,6 +40,10 @@
         position: initial;
       }
 
+      section#hero-banner > div {
+        justify-content: center;
+      }
+
       /* tablet device */
       @media (min-width: 426px) and (max-width: 768px) {
         section#projects {
@@ -52,6 +56,43 @@
 
         section.project {
           width: 49%;
+        }
+      }
+
+      /* laptop device */
+      @media (min-width: 769px) {
+        section#projects {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          column-gap: 2%;
+          row-gap: 16px;
+        }
+
+        section.project {
+          width: 32%;
+        }
+      }
+
+      /* large laptop device */
+      @media (min-width: 1025px) {
+        section.project {
+          width: 23.5%; /* 4 projects per row */
+        }
+      }
+
+      /* 4k device */
+      @media (min-width: 2560px) {
+        /* 5 projects per row */
+        /* add left and right space to center all of the project */
+        section.project {
+          width: 18.4%;
+        }
+
+        section#projects {
+          width: 70%;
+          margin-left: 15%;
+          margin-right: 15%;
         }
       }
     </style>
@@ -168,6 +209,96 @@
           alt="a placeholder image of a project"
         > <!-- snapshot of the project -->
         <h3>Project 5</h3> <!-- project name -->
+        <ul class="techs"> <!-- list of web technologies used -->
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <p class="description"> <!-- short description of the project -->
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+          modi! Ea atque ullam id, sit facilis unde placeat quasi quas
+          voluptatum architecto amet, quis iure, assumenda voluptatibus
+          explicabo nulla tenetur.
+        </p>
+      </section>
+      <section class="project">
+        <img
+          src="https://images.unsplash.com/photo-1546527868-ccb7ee7dfa6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+          alt="a placeholder image of a project"
+        > <!-- snapshot of the project -->
+        <h3>Project 6</h3> <!-- project name -->
+        <ul class="techs"> <!-- list of web technologies used -->
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <p class="description"> <!-- short description of the project -->
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+          modi! Ea atque ullam id, sit facilis unde placeat quasi quas
+          voluptatum architecto amet, quis iure, assumenda voluptatibus
+          explicabo nulla tenetur.
+        </p>
+      </section>
+      <section class="project">
+        <img
+          src="https://images.unsplash.com/photo-1546527868-ccb7ee7dfa6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+          alt="a placeholder image of a project"
+        > <!-- snapshot of the project -->
+        <h3>Project 7</h3> <!-- project name -->
+        <ul class="techs"> <!-- list of web technologies used -->
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <p class="description"> <!-- short description of the project -->
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+          modi! Ea atque ullam id, sit facilis unde placeat quasi quas
+          voluptatum architecto amet, quis iure, assumenda voluptatibus
+          explicabo nulla tenetur.
+        </p>
+      </section>
+      <section class="project">
+        <img
+          src="https://images.unsplash.com/photo-1546527868-ccb7ee7dfa6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+          alt="a placeholder image of a project"
+        > <!-- snapshot of the project -->
+        <h3>Project 8</h3> <!-- project name -->
+        <ul class="techs"> <!-- list of web technologies used -->
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <p class="description"> <!-- short description of the project -->
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+          modi! Ea atque ullam id, sit facilis unde placeat quasi quas
+          voluptatum architecto amet, quis iure, assumenda voluptatibus
+          explicabo nulla tenetur.
+        </p>
+      </section>
+      <section class="project">
+        <img
+          src="https://images.unsplash.com/photo-1546527868-ccb7ee7dfa6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+          alt="a placeholder image of a project"
+        > <!-- snapshot of the project -->
+        <h3>Project 9</h3> <!-- project name -->
+        <ul class="techs"> <!-- list of web technologies used -->
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <p class="description"> <!-- short description of the project -->
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+          modi! Ea atque ullam id, sit facilis unde placeat quasi quas
+          voluptatum architecto amet, quis iure, assumenda voluptatibus
+          explicabo nulla tenetur.
+        </p>
+      </section>
+      <section class="project">
+        <img
+          src="https://images.unsplash.com/photo-1546527868-ccb7ee7dfa6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+          alt="a placeholder image of a project"
+        > <!-- snapshot of the project -->
+        <h3>Project 10</h3> <!-- project name -->
         <ul class="techs"> <!-- list of web technologies used -->
           <li>HTML</li>
           <li>CSS</li>
